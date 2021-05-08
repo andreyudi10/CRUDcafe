@@ -6,11 +6,11 @@ import TransaksiCafe from '../components/TransaksiCafe'
 
 const Home = () => {
     return (
-        <div>
+        <>
             {/* <NavbarWeb /> */}
             <NavbarMurni />
             <TransaksiCafe />
-        </div>
+        </>
     )
 }
 
