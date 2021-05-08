@@ -6,24 +6,29 @@ const NavbarMurni = () => {
     return (
         <div className={styles.navbar}>
             <div className={styles.container}>
-                <NavLink to="/components" className={styles.nounderline}>
+                <NavLink to="/LaporanCafeJurnal" className={styles.nounderline}>
                     <div className={styles.linkBox}>                        
                         Laporan Cafe Jurnal                 
                     </div>
                 </NavLink>
-                <NavLink to="/components" className={styles.nounderline}>
+                <NavLink to="/" className={styles.nounderline}>
                     <div className={styles.linkBox}>
                         Transaksi Cafe
                     </div>
                 </NavLink>
-                <NavLink to="/components" className={styles.nounderline}>
+                <NavLink to="/VoucherCafe" className={styles.nounderline}>
                     <div className={styles.linkBox}>
                         Voucher Cafe
                     </div>
                 </NavLink>
-                <NavLink to="/components" className={styles.nounderline}>
+                <NavLink to="/TransaksiGudang" className={styles.nounderline}>
                     <div className={styles.linkBox}>
                         Transaksi Gudang
+                    </div>
+                </NavLink>
+                <NavLink to="/MasterMenu" className={styles.nounderline}>
+                    <div className={styles.linkBox}>
+                        Master Menu
                     </div>
                 </NavLink>
 

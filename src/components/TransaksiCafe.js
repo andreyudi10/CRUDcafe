@@ -4,27 +4,14 @@ import styles from './TransaksiCafe.module.css'
 
 const TransaksiCafe = () => {
     return (
-        <div className={styles.container}>
-            
+        <div className={styles.container}>            
+            <div>Transaksi Cafe</div>
             <Button color="primary">
                 Submit
             </Button>
             <Button color="primary">
                 Submit
-            </Button>
-            <Button color="primary">
-                Submit
-            </Button>
-            <Button color="primary">
-                Submit
-            </Button>
-            <Button color="primary">
-                Submit
-            </Button>
-            <Button color="primary">
-                Submit
-            </Button>
-
+            </Button>            
         </div>
     )
 }
