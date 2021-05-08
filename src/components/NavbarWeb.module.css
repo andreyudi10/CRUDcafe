@@ -1,0 +1,13 @@
+.maincontainer{
+    /* display: flex;
+    width: 90vw;    
+    justify-content: center;
+    align-items: center; */
+}
+
+.komponen{
+    width: fit-content;
+    height: fit-content;
+    color:red;
+    text-decoration: none;
+}
